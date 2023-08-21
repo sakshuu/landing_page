@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import './../assets/css/home.css';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 
 
 const Home = () => {
@@ -12,6 +12,14 @@ const Home = () => {
    <Swiper
         effect={'coverflow'}
         grabCursor={true}
+        autoplay={{
+          delay: 700,
+          disableOnInteraction: false,
+         }}
+         pagination={{
+          clickable: true,
+       }}
+       navigation={true}
         centeredSlides={true}
         slidesPerView={'auto'}
         coverflowEffect={{
@@ -21,8 +29,7 @@ const Home = () => {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[Autoplay, EffectCoverflow, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
