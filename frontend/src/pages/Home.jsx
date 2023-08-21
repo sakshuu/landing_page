@@ -56,6 +56,9 @@ const Home = () => {
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        </SwiperSlide>
       </Swiper>
   </>
 }

@@ -5,3 +5,8 @@
     margin-top: 20px;
     text-align: center;
 }
+.footeritem{
+    @media (max-width: 651px) {
+        text-align: center;
+      }
+}

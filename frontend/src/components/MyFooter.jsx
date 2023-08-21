@@ -11,11 +11,10 @@ const MyFooter = () => {
 
 <div className="row">
     {
-pagefooter.map(item => <>
- <div className="col-md-3 col-sm-6 col-xs-12 mb-4">
+pagefooter.map((item,i) =>  <div key={item} className="col-md-3 col-sm-6 col-xs-12 mb-4 footeritem">
     <h6><i className="bi bi-house-add-fill p-2"></i>{item}</h6>
     </div>
-</>)
+)
     }
 </div>
 <p className='mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo libero minus voluptatum laudantium commodi, cumque ex mollitia pariatur fugiat quidem vero accusamus architecto? Hic impedit inventore placeat debitis, magni harum!lore-sm- lore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo libero minus voluptatum laudantium commodi, cumque ex mollitia pariatur fugiat quidem vero accusamus architecto? Hic impedit inventore placeat debitis, magni harum!lore-sm- lore</p>
@@ -32,9 +31,9 @@ pagefooter.map(item => <>
 
 </div>
 <div className='p-2'>
-    <span><i class="bi bi-instagram p-2"></i></span>
-    <span><i class="bi bi-youtube p-2"></i></span>
-    <span><i class="bi bi-linkedin p-2"></i></span>
+    <span><i className="bi bi-instagram p-2"></i></span>
+    <span><i className="bi bi-youtube p-2"></i></span>
+    <span><i className="bi bi-linkedin p-2"></i></span>
 </div>
 </div>
   </div>

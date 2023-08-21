@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { About, Home } from './pages';
-import Page404 from './pages/Page404';
+import { About, Home, Page404 } from './pages';;
 import { MyFooter, MyNavbar } from './components';
 
 const App = () => {
