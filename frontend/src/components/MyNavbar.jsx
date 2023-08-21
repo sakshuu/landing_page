@@ -5,7 +5,7 @@ const MyNavbar = () => {
   return <>
   <nav className="navbar navbar-expand-lg bg-light navbar-light">
     <div className="container-fluid">
-      <Link className="navbar-brand" path="/">Landing Page</Link>
+      <Link className="navbar-brand" path="/">Landing page</Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
         <span className="navbar-toggler-icon"></span> 
       </button>
